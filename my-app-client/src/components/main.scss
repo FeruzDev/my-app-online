@@ -1,0 +1,131 @@
+
+.body{
+  overflow-x: hidden;
+}
+.login{
+  padding: 0;
+  margin: 0;
+  .row{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    .col-md-5{
+      height: 100%;
+      padding: 50px;
+      display: flex;
+      align-items: center;
+      img{
+        //height: 100%;
+        width: 100%;
+      }
+    }
+    .col-md-7{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .loginCard{
+        width: 320px;
+        h3{
+          color: #6A83DB  ;
+        }
+        p{
+          font-size: 18px;
+          margin-bottom: 40px;
+        }
+        form{
+          input{
+            margin-top: 20px;
+          }
+          button{
+            margin-top: 20px;
+            background-color: #6A83DB;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.mainLayout{
+  min-height: 100%;
+}
+
+
+.navbarMain{
+  .dropdown-toggle{
+    span{
+      margin-top: -4px;
+      margin-right: 7px;
+    }
+    &::after{
+
+    }
+  }
+}
+
+.books{
+  .add-btn{
+    button{
+      border: none;
+      background-color: transparent;
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+  .container{
+    .row{
+      .col-md-9{
+        .row{
+          .col-md-4{
+            .boxes{
+              height: 500px;
+              margin-top: 30px;
+              img{
+                width: 100%;
+                border-radius: 10px;
+              }
+              p{
+                padding: 20px;
+                margin: 0;
+                padding-bottom: 0;
+              }
+             div{
+               padding: 20px;
+               a{
+               }
+             }
+            }
+          }
+        }
+      }
+      .col-md-3{
+        .row{
+          margin-top: 20px;
+
+          .col-md-12{
+            .mini-boxes{
+              display: flex;
+              margin-top: 10px;
+              img{
+                width: 40px;
+                height: 50px;
+                margin-right: 10px;
+                border-radius: 6px;
+              }
+              div{
+                p{
+                  margin: 0;
+                  font-size: 12px;
+                }
+                a{
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
